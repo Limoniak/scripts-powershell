@@ -1,0 +1,3 @@
+# Extraction des noms d'utilisateurs présent dans un groupe (sous groupes compris avec le -recursive)
+
+Get-ADGroupMember -recursive -identity "fs-service-gcn-ccn" | select name
